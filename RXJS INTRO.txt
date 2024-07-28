@@ -1,0 +1,48 @@
+1.Reactive programming is the new way of building an  application
+ --our app will react to the changes and handle  data streams rather than we handle each events
+
+2.RXJS is a library which will helps us in making async calls and implement callbacks mechanism
+
+3.RXJS consists of 3 main things
+  --Observables
+  --satelite Data Types -Observers,Schedulers,Subjects,
+  --Operators
+       --Array Methods
+            --Map,Filter,Reduce,Find
+  -help us in data streams
+
+4.Observables
+   --It is a Data streams
+   --In a E-commerce Shopping Mall application
+   -- OrderStatus(Var)=NULL
+
+   --User Comes and PLace the Order ,Order Status will be changed Over the Time Accordingly
+   -OrderStatus=Order placed 
+   -OrderStatus=Order received
+   -OrderStatus=Order processing
+   -OrderStatus=Order submitted
+   -OrderStatus=Order completed
+   -OrderStatus=Order Over
+ --needs to be informed to multiple apps
+
+
+ -Subscriber
+    --it will listen to the Observables for data changes/Updates
+    --My App is DashBoard
+      -OrderStatus (latest value always) -since we have Subscriber it
+
+
+
+
+Observables
+
+Observables will emit the data over a period of time (if any changes ocuurs in a data)
+
+Observables needed to Subscribed or else we cant do any thing 
+
+when we Subscribe the Observables, We will get a Observers 
+
+Observers have three Methods
+next 
+complete
+error

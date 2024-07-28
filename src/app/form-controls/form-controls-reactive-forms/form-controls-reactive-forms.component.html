@@ -1,0 +1,6 @@
+<p>form-controls-reactive-forms works!</p>
+<form [formGroup]="form" (submit)="onSubmit()">
+    Control: <strong *ngIf="form.get('control') | controlRequired">*</strong>
+    <input type="text" formControlName="control">
+    <button>Submit</button>
+</form>

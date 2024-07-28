@@ -1,0 +1,40 @@
+<p>rxjs works!</p>
+<label>{{display}}</label>
+
+<!-- From Event Operator Observable -->
+
+<button #fromEventOperatorRxjsTmpRef (click)="fromEventOperator()">
+    Click For Observable
+</button>
+
+
+<a href="http://localhost:4200/test-url" #getlink (mouseover)="fromEventOperatormouse()">
+    hover mouse to get link
+</a>
+
+
+<h1>TEST Observable</h1>
+
+<label for="INPUT1">input 1:</label>
+<input type="text" id="INPUT1" name="INPUT1"><br><br>
+<label for="INPUT2"> input 2:</label>
+<input type="text" id="INPUT2" name="INPUT2"><br><br>
+
+<p>Combined Values: <span id="span1"></span> </p>
+
+
+
+<h1>Typing </h1>
+
+<label for="type1"> Type Here</label>
+<input type="text" id="typeHere" name="typeHere"><br><br>
+
+
+<p>Type values:
+    <span id="spanId"></span>
+</p>
+
+
+<button (click)="pro_acdamey_sub()" >ProACAMEY Observable</button>
+
+<!-- <input [(ngModel)]="searchTerm" (input)="search(searchTerm)" /> -->

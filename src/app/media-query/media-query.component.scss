@@ -1,0 +1,22 @@
+//Desktop Media Query
+@media (min-width:992px) {
+    .container {
+        background-color: blue;
+        padding: 30px;
+    }
+}
+
+//Tablet Media Query
+@media (max-width:992px) and (min-width:768px) {
+    .container {
+        background-color: purple;
+        padding: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        background-color: palegreen;
+        padding: 10px;
+    }
+}

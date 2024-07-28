@@ -1,0 +1,51 @@
+RXJS Operators
+   
+
+    operators are also known as pure functions.
+
+        pure functions will don,t have any side effects
+        function will return the same value when passed with same input value
+            ex; when we have a addition function of two number 
+                we will get the same value for the same parameters
+
+
+                Types of Operators
+                Creation
+                Mathematical
+                Join
+                Transformation
+                Filtering
+                Utility
+                Conditional
+                Multi Casting
+                Error Handling
+
+
+
+
+OF Operators
+
+ by using the of operator we can set the value for the Observables typical setting valuesn are string,object,array
+
+
+ use cases 
+   converting the array object string into type Observables using of opertaor
+
+
+From Operators
+
+    from Operators will create an Observables from an array , an array like a object ,promise, an iterable object
+    or an observable like an object
+
+    Remember it will always take an array or array like an object
+
+    If we give a string or object value to from opertaor observable, it will through errors
+
+
+FromEvent Operators
+
+    its helps to create an observable which where emits from an events like(click,blur,focus,etc)
+
+    In Angular
+       Binding The events
+       use viewChild,NativeElements as target element and bind events
